@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: your-dockerhub-username/mern-backend:latest
+        image: mianhasnain67/mern-backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
@@ -27,7 +27,7 @@ spec:
           httpGet:
             path: /health
             port: 5000
-          initialDelaySeconds: 15
+          initialDelaySeconds: 20
           periodSeconds: 10
         resources:
           limits:
