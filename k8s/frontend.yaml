@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: mianhasnain67/mern-frontend:latest
+        image: mianhasnain/mern-frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80

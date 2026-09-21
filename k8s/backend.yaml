@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: mianhasnain67/mern-backend:latest
+        image: mianhasnain/mern-backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
