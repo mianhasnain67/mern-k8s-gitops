@@ -98,8 +98,8 @@ function App() {
       <section className="hero">
         <div>
           <p className="eyebrow">YOUR WORKSPACE</p>
-          <h1>Move the work<br /><em>forward.</em></h1>
-          <p className="hero-copy">Keep priorities visible, momentum steady, and every deliverable moving toward done.</p>
+          <h1>Prismatic Technologies - All Projects &amp; Tasks Status</h1>
+          <p className="hero-copy">Internal DevOps &amp; Engineering Delivery Dashboard</p>
         </div>
         <div className="summary"><strong>{completedCount}<small> / {tasks.length}</small></strong><span>tasks completed</span><div className="progress"><i style={{ width: tasks.length ? `${completedCount / tasks.length * 100}%` : '0%' }} /></div></div>
       </section>
